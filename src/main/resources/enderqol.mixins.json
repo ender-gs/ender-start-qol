@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ender.qol.bg2pattern.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ModeRadialMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

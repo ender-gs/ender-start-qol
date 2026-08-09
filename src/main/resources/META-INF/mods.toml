@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/StarT-Dev-Team/Star-Technology/issues"
+
+[[mods]]
+modId="enderqol"
+version="${file.jarVersion}"
+displayName="Ender QOL Mod"
+authors="Ender"
+description='''
+Quality of life features and integrations.
+Includes modular architecture for AE2, Building Gadgets 2, and future QOL enhancements.
+'''
+
+[[dependencies.enderqol]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.20,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.enderqol]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

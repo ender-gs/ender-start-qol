@@ -1,0 +1,31 @@
+# Gradle directories
+.gradle/
+build/
+
+# Local Developer Configuration (Ignored by Git)
+local.properties
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+bin/
+
+# VSCode & IntelliJ IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Minecraft run directory
+run/
+
+# OS and Temporary files
+.DS_Store
+Thumbs.db
